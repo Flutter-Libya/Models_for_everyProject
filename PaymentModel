@@ -1,0 +1,14 @@
+class Payment {
+  String cardNumber;
+  String expiryDate;
+  String cardHolderName;
+  String cvv;
+
+ 
+  Payment({
+    required this.cardNumber,
+    required this.expiryDate,
+    required this.cardHolderName,
+    required this.cvv,
+  });
+}
