@@ -1,0 +1,10 @@
+class Category {
+  String categoryName;
+  List<Product> products;
+
+ 
+  Category({
+    required this.categoryName,
+    required this.products,
+  });
+}
